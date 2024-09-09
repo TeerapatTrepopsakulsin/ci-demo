@@ -1,3 +1,6 @@
+from math import sqrt
+
+
 def average(data):
     """Return the average of a list of numeric values in data."""
     if len(data)==0:
@@ -40,4 +43,3 @@ def variance(data):
 def stdev(data):
     """the standard deviation of a list of values"""
     return sqrt(variance(data))
-
