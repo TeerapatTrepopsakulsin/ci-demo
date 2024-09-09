@@ -2,8 +2,8 @@ from unittest import TestCase
 from statistics import variance, stdev
 from math import sqrt
 
-class StatisticsTest(TestCase):
 
+class StatisticsTest(TestCase):
     def test_variance_typical_values(self):
         """variance of typical values"""
         self.assertEqual(0.0, variance([10.0,10.0,10.0,10.0,10.0]))
@@ -13,9 +13,9 @@ class StatisticsTest(TestCase):
     def test_variance_non_integers(self):
         """variance should work with decimal values"""
         # variance([x,y,z]) == variance([x+d,y+d,z+d]) for any d
-        self.assertEqual(4.0, variance([0.1, 4.1]))
+        self.assertAlmostEqual(4.0, variance([0.1, 4.1]))
         # variance([0,4,4,8]) == 8
-        self.assertEqual(8.0, variance([0.1, 4.1, 4.1, 8.1]))
+        self.assertAlmostEqual(8.0, variance([0.1, 4.1, 4.1, 8.1]))
 
     def test_stdev(self):
         # standard deviation of a single value should be zero
