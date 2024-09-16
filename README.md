@@ -2,6 +2,7 @@ Continuous Integration Demo
 ===========================
 [![Run unit tests](https://github.com/TeerapatTrepopsakulsin/ci-demo/actions/workflows/unittest.yml/badge.svg)](https://github.com/TeerapatTrepopsakulsin/ci-demo/actions/workflows/unittest.yml)
 [![Flake8 Checking](https://github.com/TeerapatTrepopsakulsin/ci-demo/actions/workflows/flake8-checking.yml/badge.svg)](https://github.com/TeerapatTrepopsakulsin/ci-demo/actions/workflows/flake8-checking.yml)
+[![Codecov](https://codecov.io/github/TeerapatTrepopsakulsin/ci-demo/branch/master/graph/badge.svg?token=45W24LH0SV)](https://codecov.io/github/TeerapatTrepopsakulsin/ci-demo)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
